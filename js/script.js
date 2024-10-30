@@ -2,7 +2,7 @@
 const d = new Date();
 // Store the value of getHours in variable
 let hour = d.getHours();
-hour=5;
+hour=13;
 // hour = 15;
 // hour = 20;
 // console.log(hour);
@@ -11,7 +11,7 @@ let greetingText = document.getElementById("greeting-text");
 
 if (hour < 12) {
   // if hour is less than 12pm
-  greetingText.textContent = "Good Morning!";
+  greetingText.textContent = "Morning Run!";
   document.querySelector(".night").classList.add("d-none");
   document.querySelector(".afternoon").classList.add("d-none");
 } else if (hour < 17) {
