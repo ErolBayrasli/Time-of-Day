@@ -11,7 +11,9 @@ let greetingText = document.getElementById("greeting-text");
 
 
 
+.setHour{
 
+}
 
 
 

@@ -14,11 +14,16 @@
     <title>Time of Day</title>
   </head>
   <body>
+
+
     <div class="choose-time">
-      <button type="button" class="btn btn-primary" >Morning</button>
-<button type="button" class="btn btn-secondary">Afternoon</button>
-<button type="button" class="btn btn-dark">Night</button>
+      <button type="button" class="btn btn-primary" onclick="setHour(5)" >Morning</button>
+<button type="button" class="btn btn-secondary" onclick="setHour(12)">Afternoon</button>
+<button type="button" class="btn btn-dark" onclick="setHour(20)">Night</button>
     </div>
+
+
+    
     <div class="greeting">
       <p id="greeting-text">Good Morning</p>
     </div>
